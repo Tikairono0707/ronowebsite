@@ -1,0 +1,48 @@
+body {
+2    font-family: Arial, sans-serif;
+3    background-color: #f4f4f4;
+4    margin: 0;
+5    padding: 20px;
+6}
+7
+8.container {
+9    max-width: 600px;
+10    margin: auto;
+11    background: white;
+12    padding: 20px;
+13    border-radius: 5px;
+14    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+15}
+16
+17h1, h2 {
+18    text-align: center;
+19}
+20
+21form {
+22    display: flex;
+23    flex-direction: column;
+24}
+25
+26input, textarea {
+27    margin: 10px 0;
+28    padding: 10px;
+29    border: 1px solid #ccc;
+30    border-radius: 5px;
+31}
+32
+33button {
+34    padding: 10px;
+35    background-color: #28a745;
+36    color: white;
+37    border: none;
+38    border-radius: 5px;
+39    cursor: pointer;
+40}
+41
+42button:hover {
+43    background-color: #218838;
+44}
+45
+46#teachingsList {
+47    margin-top: 20px;
+48}
